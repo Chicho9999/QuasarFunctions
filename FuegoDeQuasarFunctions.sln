@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuegoDeQuasarFunctions", "SateliteFunctions\FuegoDeQuasarFunctions.csproj", "{DCA8557F-7FB4-4C8B-897E-A40798F9706A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCA8557F-7FB4-4C8B-897E-A40798F9706A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCA8557F-7FB4-4C8B-897E-A40798F9706A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCA8557F-7FB4-4C8B-897E-A40798F9706A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCA8557F-7FB4-4C8B-897E-A40798F9706A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19D9D5B9-3D20-4396-A88C-F21BF7F72486}
+	EndGlobalSection
+EndGlobal
