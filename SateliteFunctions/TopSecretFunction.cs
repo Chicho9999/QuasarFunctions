@@ -28,7 +28,7 @@ namespace FuegoDeQuasarFunctions
         }
 
         [FunctionName("topsecret")]
-        public async Task<IActionResult> TopSecret([HttpTrigger(AuthorizationLevel.Function, "post", Route = null)] HttpRequest req, ILogger log)
+        public async Task<IActionResult> TopSecret([HttpTrigger(AuthorizationLevel.Anonymous, "post", Route = null)] HttpRequest req, ILogger log)
         {
 
             var requestBody = await new StreamReader(req.Body).ReadToEndAsync();
@@ -57,7 +57,7 @@ namespace FuegoDeQuasarFunctions
         }
 
         [FunctionName("topsecret_split")]
-        public IActionResult TopSecretSplit([HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)] HttpRequest req, ILogger log)
+        public IActionResult TopSecretSplit([HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", Route = null)] HttpRequest req, ILogger log)
         {
             string name = req.Query["name"];
 
